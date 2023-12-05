@@ -28,7 +28,7 @@ function App() {
             <Routes>
               <Route path="/login" element={<Login onLoginSuccess={() => handleLoginState(true)} />} />
               <Route path="/register" element={<Registro />} />
-              <Route path="/home" element={<Home />} />
+              <Route path="/" element={<Home />} />
               <Route path="/solicitud" element={<Solicitud />} />
                <Route path="/historial" element={<Historial />} /> 
                <Route path="/contacto" element={<Contacto />} /> 
