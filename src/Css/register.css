@@ -1,0 +1,139 @@
+
+/* Estilos para el contenedor principal */
+.form-container {
+  background-color: #f9f9f9;
+  max-width: 400px;
+  margin: auto;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #0056b3;
+}
+
+.register .form-group-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-group {
+  flex: 1;
+  margin: 0.5rem;
+}
+/* Estilos para los elementos dentro del formulario */
+.form-group {
+  width: 100%; /* Asegura que el grupo de formulario utilice todo el ancho del contenedor */
+  margin-bottom: 1rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.form-group input[type="email"],
+.form-group textarea,
+.form-group input[type="number"],
+.form-group input[type="text"],
+.form-group input[type="password"] {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.form-group input[type="email"]:focus,
+.form-group input[type="number"]:focus,
+.form-group input[type="password"]:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.form-group p {
+  color: red;
+  font-size: 0.875rem;
+}
+
+button[type="submit"] {
+  width: 100%;
+  padding: 1rem;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+/* Ajustes al CSS para que el fondo cubra toda la página y el formulario esté centrado */
+.container-full-height {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login .form-container {
+  padding: 40px;
+  background-color: rgba(8, 8, 8, 0.205);
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  max-width: 400px; /* Esto limita el ancho del formulario a 400px */
+}
+
+body{
+  background-image: url(/src/imagenes/fondo.jpg);
+ background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+
+/* Estilos para la tabla */
+.table-historial {
+  width: 100%; /* Ocupa todo el ancho disponible */
+  border-collapse: collapse; /* Elimina los espacios entre las celdas */
+  margin-top: 20px; /* Espacio superior */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra ligera para dar profundidad */
+  background-color: white; /* Fondo blanco para la tabla */
+  color: black;
+}
+
+.table-historial th, 
+.table-historial td {
+  border: 1px solid #ddd; /* Borde ligero para celdas */
+  padding: 8px; /* Espaciado interno para texto en celdas */
+  text-align: left; /* Alineación del texto */
+}
+
+.table-historial th {
+  background-color: #004d99; /* Color de fondo para encabezados */
+  color: white; /* Color de texto para encabezados */
+  font-weight: bold; /* Texto en negrita para encabezados */
+}
+
+.table-historial tr:nth-child(even) {
+  background-color: #f2f2f2; /* Color de fondo para filas pares */
+}
+
+.table-historial tr:hover {
+  background-color: #ddd; /* Color de fondo al pasar el mouse sobre una fila */
+}
+
+/* Estilos para la cabecera de la tabla */
+.table-historial thead th {
+  position: sticky; /* Mantiene la cabecera visible al desplazarse */
+  top: 0; /* Posición superior de la cabecera */
+  z-index: 10; /* Asegura que la cabecera se mantenga por encima del contenido */
+}

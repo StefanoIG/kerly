@@ -1,0 +1,60 @@
+.home .pan {
+    box-sizing: border-box;
+    color: #000000;
+    margin: auto;
+    padding: 1em;
+    width: 49%;
+    height: 2 px;
+    background: rgba(255, 255, 255, 0.638);
+    box-shadow: 0 1rem 1rem rgba(113, 112, 112, 0.732);
+    margin-top: 200px;
+
+}
+
+/* Estilos de la sección de Visión y Misión */
+.home .columns {
+    display: flex;
+    justify-content: center;
+}
+
+.home .pan img{
+    width: 25%;
+
+}
+.home .column {
+    flex: 190;
+    padding: 10px;
+    text-align: center;
+}
+
+.home h1 {
+    font-size: 24px;
+}
+
+.home p {
+    font-size: 16px;
+    
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home legend {
+    border: 1px solid #000000; /* Borde alrededor del legend */
+    
+   
+  padding: 10px; /* Espaciado interno */
+    font-weight: bold; /* Texto en negrita */
+    background-color: #ffffff; /* Color de fondo */
+  }
+  
+  /* Estilo para el elemento h1 dentro de legend */
+  .home legend h1 {
+    
+   
+  font-size: 24px; /* Tamaño de fuente */
+    margin: 0; /* Elimina el margen predeterminado del h1 */
+  }
+  
