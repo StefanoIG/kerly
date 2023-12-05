@@ -16,7 +16,7 @@ const Header = ({ isLoggedIn, onLogout }) => {
     <header className='header'>
       <nav>
         <ul>
-          <li><Link to='/home'>Inicio</Link></li>
+          <li><Link to='/'>Inicio</Link></li>
           <li><Link to='/contacto'>Contacto</Link></li>
           {isLoggedIn ? (
             <>
